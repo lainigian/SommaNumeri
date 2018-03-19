@@ -23,9 +23,9 @@ public class Sommatore
 			return x;
 		
 	}
-	public static int somma100(int x) 
+	public static int somma400(int x) 
 	{
-		for (int i = 0; i < 100; i++) 
+		for (int i = 0; i < 400; i++) 
 			x++;
 		
 			return x;
@@ -41,7 +41,7 @@ public class Sommatore
 		System.out.println(somma4(x));
 		System.out.println(somma10(x));
 		System.out.println(somma20(x));
-		System.out.println(somma100(x));
+		System.out.println(somma400(x));
 		
 	}
 
